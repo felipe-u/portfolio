@@ -8,23 +8,23 @@ import '../styles/Main.css'
 export function Main() {
   return (
     <main>
-      <section id='about-me-section'>
+      <section id='about-me'>
         <AboutPage />
       </section>
 
-      <section id='exp-section'>
+      <section id='exp'>
         <ExpPage />
       </section>
 
-      <section id='projects-section'>
+      <section id='projects'>
         <ProjectsPage />
       </section>
 
-      <section id='skills-section'>
+      <section id='skills'>
         <SkillsPage />
       </section>
 
-      <section id='contact-section'>
+      <section id='contact'>
         <ContactPage />
       </section>
     </main>

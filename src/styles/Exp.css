@@ -1,0 +1,38 @@
+.exp-container h2 {
+  text-align: center;
+}
+
+.timeline-item {
+  position: relative;
+  display: flex;
+  align-items: baseline;
+  gap: 40px;
+  padding-bottom: 50px;
+}
+
+.timeline-item::before {
+  content: '';
+  position: absolute;
+  left: 170px;
+  top: 0;
+  width: 2px;
+  height: 100%;
+  background: black;
+}
+
+.timeline-dot {
+  background: black;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  position: absolute;
+  left: 166px;
+  top: 30px;
+}
+
+.timeline-job {
+  border: 1px solid black;
+  border-radius: 10px;
+  width: 400px;
+  padding: 20px;
+}

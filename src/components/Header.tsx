@@ -7,11 +7,11 @@ export function Header() {
 
       <div className='nav-container'>
         <nav>
-          <a href='#'>Sobre mí</a>
-          <a href='#'>Experiencia</a>
-          <a href='#'>Proyectos</a>
-          <a href='#'>Habilidades</a>
-          <a href='#'>Contacto</a>
+          <a href='#about-me-section'>Sobre mí</a>
+          <a href='#exp-section'>Experiencia</a>
+          <a href='#projects-section'>Proyectos</a>
+          <a href='#skills-section'>Habilidades</a>
+          <a href='#contact-section'>Contacto</a>
         </nav>
 
         <div>

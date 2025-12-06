@@ -1,0 +1,16 @@
+header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 10px;
+  border: 1px solid black;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.nav-container {
+  display: flex;
+  gap: 20px;
+}

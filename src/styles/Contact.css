@@ -1,0 +1,24 @@
+.contact-container {
+  display: flex;
+  justify-content: space-around;
+  border: 1px solid black;
+  width: 80%;
+  max-width: 500px;
+}
+
+.contact-info h2 {
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.contact-item {
+  display: flex;
+  gap: 10px;
+  padding-bottom: 15px;
+}
+
+.icons {
+    display: flex;
+    place-content: center;
+    gap: 10px;
+}

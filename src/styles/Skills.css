@@ -1,0 +1,24 @@
+.skills-wrap {
+  border: 1px solid black;
+  border-radius: 10px;
+  width: 400px;
+}
+
+.skills-selector {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.skills-selector h3 {
+  cursor: pointer;
+}
+
+.skills-view {
+  padding: 15px;
+}
+
+.skills-view li {
+  list-style: none;
+  padding-bottom: 10px;
+}

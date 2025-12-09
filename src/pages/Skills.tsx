@@ -1,3 +1,4 @@
+import { skills } from '../data'
 import '../styles/Skills.css'
 import { useState } from 'react'
 
@@ -27,17 +28,15 @@ export function SkillsPage() {
         <div className='skills-view'>
           {skillsTab === 'tech' ? (
             <ul>
-              <li>React</li>
-              <li>React</li>
-              <li>React</li>
-              <li>React</li>
+              {skills.tech.map((skill) => (
+                <li key={skill}>{skill}</li>
+              ))}
             </ul>
           ) : (
             <ul>
-              <li>Comunicacion</li>
-              <li>Comunicacion</li>
-              <li>Comunicacion</li>
-              <li>Comunicacion</li>
+              {skills.soft.map((skill) => (
+                <li key={skill}>{skill}</li>
+              ))}
             </ul>
           )}
         </div>

@@ -1,3 +1,4 @@
+import { projects } from '../data'
 import '../styles/Projects.css'
 
 export function ProjectsPage() {
@@ -6,77 +7,32 @@ export function ProjectsPage() {
       <h2>Proyectos</h2>
 
       <div className='projects'>
-        <div className='project'>
-          <img
-            src='https://i.pinimg.com/1200x/76/75/42/767542303972a837a7fa4d2cf26bf5f5.jpg'
-            alt='Random Image'
-          />
-          <div className='project-desc'>
-            <h3>Project Name</h3>
-            <p>
-              Project description Lorem ipsum dolor sit amet consectetur
-              adipisicing elit
-            </p>
-            <div className='project-tags'>
-              <span>HTML</span>
-              <span>React</span>
-              <span>TypeScript</span>
-            </div>
-            <hr />
-            <div className='project-links'>
-              <a href='#'>Repository</a>
-              <a href='#'>Project Demo</a>
-            </div>
-          </div>
-        </div>
-
-        <div className='project'>
-          <img
-            src='https://i.pinimg.com/1200x/76/75/42/767542303972a837a7fa4d2cf26bf5f5.jpg'
-            alt='Random Image'
-          />
-          <div className='project-desc'>
-            <h3>Project Name</h3>
-            <p>
-              Project description Lorem ipsum dolor sit amet consectetur
-              adipisicing elit
-            </p>
-            <div className='project-tags'>
-              <span>HTML</span>
-              <span>React</span>
-              <span>TypeScript</span>
-            </div>
-            <hr />
-            <div className='project-links'>
-              <a href='#'>Repository</a>
-              <a href='#'>Project Demo</a>
+        {projects.map((project) => (
+          <div className='project' key={project.id}>
+            <img
+              src='https://i.pinimg.com/1200x/76/75/42/767542303972a837a7fa4d2cf26bf5f5.jpg'
+              alt='Random Image'
+            />
+            <div className='project-desc'>
+              <h3>{project.name}</h3>
+              <p>{project.desc}</p>
+              <div className='project-tags'>
+                {project.tags.map((tag) => (
+                  <span key={tag}>{tag}</span>
+                ))}
+              </div>
+              <hr />
+              <div className='project-links'>
+                <a href={project.repoUrl} target='_blank' rel='noreferrer'>
+                  Repository
+                </a>
+                <a href={project.demoUrl} target='_blank' rel='noreferrer'>
+                  Project Demo
+                </a>
+              </div>
             </div>
           </div>
-        </div>
-
-        <div className='project'>
-          <img
-            src='https://i.pinimg.com/1200x/76/75/42/767542303972a837a7fa4d2cf26bf5f5.jpg'
-            alt='Random Image'
-          />
-          <div className='project-desc'>
-            <h3>Project Name</h3>
-            <p>
-              Project description Lorem ipsum dolor sit amet consectetur
-              adipisicing elit
-            </p>
-            <div className='project-tags'>
-              <span>HTML</span>
-              <span>React</span>
-              <span>TypeScript</span>
-            </div>
-            <hr />
-            <div className='project-links'>
-              <a href='#'>Repository</a>
-              <a href='#'>Project Demo</a>
-            </div>
-          </div>
-        </div>
+        ))}
       </div>
     </div>
   )

@@ -12,11 +12,11 @@ export function Main() {
         <AboutPage />
       </section>
 
-      <section id='exp'>
+      <section id='exp' className='start-layout'>
         <ExpPage />
       </section>
 
-      <section id='projects'>
+      <section id='projects' className='start-layout'>
         <ProjectsPage />
       </section>
 

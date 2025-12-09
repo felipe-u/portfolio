@@ -2,7 +2,13 @@ section {
   border: 1px solid red;
   min-height: 100vh;
   display: grid;
-  place-items: center;
+  align-items: center;
+  justify-items: center;
+  padding-top: 75px;
+}
+
+.start-layout {
+  align-items: start;
 }
 
 .about-container {

@@ -1,19 +1,21 @@
 .exp-container h2 {
   text-align: center;
+  padding: 50px 0;
+  font-size: 1.8em;
 }
 
 .timeline-item {
   position: relative;
   display: flex;
   align-items: baseline;
-  gap: 40px;
+  gap: 60px;
   padding-bottom: 50px;
 }
 
 .timeline-item::before {
   content: '';
   position: absolute;
-  left: 170px;
+  left: 190px;
   top: 0;
   width: 2px;
   height: 100%;
@@ -26,7 +28,7 @@
   height: 10px;
   border-radius: 50%;
   position: absolute;
-  left: 166px;
+  left: 186px;
   top: 30px;
 }
 

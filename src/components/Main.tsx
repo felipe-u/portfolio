@@ -11,22 +11,22 @@ export function Main() {
       <section id='about-me' className='center-layout'>
         <AboutPage />
       </section>
-      <hr />
+      <div className='diamond-hr' />
 
       <section id='exp'>
         <ExpPage />
       </section>
-      <hr />
+      <div className='diamond-hr' />
 
       <section id='projects'>
         <ProjectsPage />
       </section>
-      <hr />
+      <div className='diamond-hr' />
 
       <section id='skills'>
         <SkillsPage />
       </section>
-      <hr />
+      <div className='diamond-hr' />
 
       <section id='contact'>
         <ContactPage />

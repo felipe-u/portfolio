@@ -41,11 +41,3 @@ header h1 {
   background-color: grey;
   color: whitesmoke;
 }
-
-.primary-btn {
-  border: none;
-  font-size: 1em;
-  padding: 5px;
-  border-radius: 5px;
-  cursor: pointer;
-}

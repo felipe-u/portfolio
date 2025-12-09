@@ -9,17 +9,20 @@ export function AboutPage() {
           apasiona todo este mundo, saber cómo cada parte de una aplicación
           encaja en un flujo más grande y saber el cómo impactan las soluciones
           tecnológicas a los usuarios.
-        </p><br />
+        </p>
+        <br />
         <p>
           Tengo experiencia en entornos ágiles, contribuyendo en plataformas
           empresariales y siguiendo buenas prácticas de desarrollo. Ahora estoy
           enfocado en fortalecer mis habilidades con React, testing y
           arquitectura Frontend.
-        </p><br />
+        </p>
+        <br />
         <p>
           Busco un rol donde pueda aportar desde el primero día y seguir
           creciendo como desarrollador.
         </p>
+        <button className='primary-btn cv-btn'>Descargar CV</button>
       </div>
       <div className='photo-container'>
         <img src='src/assets/profile-pic.png' alt='Profile picture' />

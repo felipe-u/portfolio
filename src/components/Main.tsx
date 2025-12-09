@@ -11,20 +11,24 @@ export function Main() {
       <section id='about-me' className='center-layout'>
         <AboutPage />
       </section>
+      <hr />
 
       <section id='exp'>
         <ExpPage />
       </section>
+      <hr />
 
       <section id='projects'>
         <ProjectsPage />
       </section>
+      <hr />
 
       <section id='skills'>
         <SkillsPage />
       </section>
+      <hr />
 
-      <section id='contact' className='center-layout'>
+      <section id='contact'>
         <ContactPage />
       </section>
     </main>

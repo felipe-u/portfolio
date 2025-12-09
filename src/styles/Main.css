@@ -1,14 +1,14 @@
 section {
-  border: 1px solid red;
-  min-height: 100vh;
   display: grid;
   align-items: start;
   justify-items: center;
-  padding-top: 75px;
+  padding: 75px 0 115px 0;
 }
 
 .center-layout {
   align-items: center;
+  min-height: 100vh;
+  padding-bottom: 0;
 }
 
 .about-container {

@@ -1,6 +1,13 @@
+import { useState } from 'react'
 import '../styles/Header.css'
 
 export function Header() {
+  const [lang, setLang] = useState<'ES' | 'EN'>('ES')
+
+  const toggleLang = () => {
+    setLang((prev) => (prev === 'ES' ? 'EN' : 'ES'))
+  }
+
   return (
     <header>
       <h1>Felipe U</h1>
@@ -13,10 +20,9 @@ export function Header() {
           <a href='#skills'>Habilidades</a>
           <a href='#contact'>Contacto</a>
         </nav>
-
-        <div>
-          <button>ES / EN</button>
-        </div>
+        <button className='primary-btn' onClick={toggleLang}>
+          {lang === 'ES' ? 'EN' : 'ES'}
+        </button>
       </div>
     </header>
   )

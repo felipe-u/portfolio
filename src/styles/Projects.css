@@ -3,6 +3,12 @@
   max-width: 900px;
 }
 
+.projects-container h2 {
+  text-align: center;
+  padding: 50px 0;
+  font-size: 1.8em;
+}
+
 .projects {
   display: flex;
   flex-wrap: wrap;
@@ -43,5 +49,23 @@
   border: 1px solid blue;
   font-size: 0.9em;
   border-radius: 15px;
-  padding: 0 5px;
+  padding: 3px 5px;
+}
+
+.project-links {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: 0 auto;
+  padding: 10px 0;
+}
+
+.project-links a {
+  text-decoration: none;
+  color: black;
+  transition: 0.3s ease;
+}
+
+.project-links a:hover {
+  color: darkblue;
 }

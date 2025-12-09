@@ -22,9 +22,11 @@ export function ProjectsPage() {
               <span>React</span>
               <span>TypeScript</span>
             </div>
-            <p>
-              <a href='#'>Go to website</a>
-            </p>
+            <hr />
+            <div className='project-links'>
+              <a href='#'>Repository</a>
+              <a href='#'>Project Demo</a>
+            </div>
           </div>
         </div>
 
@@ -44,9 +46,11 @@ export function ProjectsPage() {
               <span>React</span>
               <span>TypeScript</span>
             </div>
-            <p>
-              <a href='#'>Go to website</a>
-            </p>
+            <hr />
+            <div className='project-links'>
+              <a href='#'>Repository</a>
+              <a href='#'>Project Demo</a>
+            </div>
           </div>
         </div>
 
@@ -66,9 +70,11 @@ export function ProjectsPage() {
               <span>React</span>
               <span>TypeScript</span>
             </div>
-            <p>
-              <a href='#'>Go to website</a>
-            </p>
+            <hr />
+            <div className='project-links'>
+              <a href='#'>Repository</a>
+              <a href='#'>Project Demo</a>
+            </div>
           </div>
         </div>
       </div>

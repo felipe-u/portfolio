@@ -2,13 +2,13 @@ section {
   border: 1px solid red;
   min-height: 100vh;
   display: grid;
-  align-items: center;
+  align-items: start;
   justify-items: center;
   padding-top: 75px;
 }
 
-.start-layout {
-  align-items: start;
+.center-layout {
+  align-items: center;
 }
 
 .about-container {

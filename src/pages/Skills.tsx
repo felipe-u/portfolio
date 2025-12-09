@@ -10,8 +10,18 @@ export function SkillsPage() {
 
       <div className='skills-wrap'>
         <div className='skills-selector'>
-          <h3 onClick={() => setSkillsTab('tech')}>Técnicas</h3>
-          <h3 onClick={() => setSkillsTab('soft')}>Blandas</h3>
+          <h3
+            className={skillsTab === 'tech' ? 'show' : 'hide'}
+            onClick={() => setSkillsTab('tech')}
+          >
+            Técnicas
+          </h3>
+          <h3
+            className={skillsTab === 'soft' ? 'show' : 'hide'}
+            onClick={() => setSkillsTab('soft')}
+          >
+            Blandas
+          </h3>
         </div>
 
         <div className='skills-view'>

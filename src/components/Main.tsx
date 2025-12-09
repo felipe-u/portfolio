@@ -8,15 +8,15 @@ import '../styles/Main.css'
 export function Main() {
   return (
     <main>
-      <section id='about-me'>
+      <section id='about-me' className='center-layout'>
         <AboutPage />
       </section>
 
-      <section id='exp' className='start-layout'>
+      <section id='exp'>
         <ExpPage />
       </section>
 
-      <section id='projects' className='start-layout'>
+      <section id='projects'>
         <ProjectsPage />
       </section>
 
@@ -24,7 +24,7 @@ export function Main() {
         <SkillsPage />
       </section>
 
-      <section id='contact'>
+      <section id='contact' className='center-layout'>
         <ContactPage />
       </section>
     </main>

@@ -1,5 +1,10 @@
+.skills-container h2 {
+  text-align: center;
+  padding: 50px 0;
+  font-size: 1.8em;
+}
+
 .skills-wrap {
-  border: 1px solid black;
   border-radius: 10px;
   width: 400px;
 }
@@ -12,10 +17,25 @@
 
 .skills-selector h3 {
   cursor: pointer;
+  width: 50%;
+  text-align: center;
+  padding: 5px 0;
+}
+
+.skills-selector h3.show {
+  border: 1px solid black;
+  border-radius: 10px 10px 0 0;
+  border-bottom: none;
+}
+.skills-selector h3.hide {
+  border-bottom: 1px solid black;
 }
 
 .skills-view {
   padding: 15px;
+  border: 1px solid black;
+  border-radius: 0 0 3px 3px;
+  border-top: none;
 }
 
 .skills-view li {

@@ -14,7 +14,7 @@ header {
 }
 
 header h1 {
-  font-family: 'Story Script';
+  font-family: 'Story Script', 'Birthstone';
   font-size: 3em;
 }
 
@@ -41,4 +41,16 @@ header h1 {
 .nav-container a:hover {
   background-color: grey;
   color: whitesmoke;
+}
+
+.lang-btn {
+  display: flex;
+  place-items: center;
+  gap: 5px;
+  width: 63px;
+}
+
+.lang-btn span {
+  display: grid;
+  place-items: center;
 }

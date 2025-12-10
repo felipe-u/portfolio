@@ -65,8 +65,8 @@
 
 .project-links {
   display: flex;
-  justify-content: space-between;
-  width: 90%;
+  justify-content: space-around;
+  width: 100%;
   margin: 0 auto;
   padding: 10px 0;
 }
@@ -75,8 +75,19 @@
   text-decoration: none;
   color: black;
   transition: 0.3s ease;
+  background-color: lightgray;
+  border-radius: 5px;
+  display: flex;
+  place-items: center;
+  gap: 5px;
+  padding: 5px;
 }
 
 .project-links a:hover {
-  color: darkblue;
+  background-color: grey;
+}
+
+.project-links span {
+  display: grid;
+  place-items: center;
 }

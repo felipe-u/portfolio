@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import '../styles/Header.css'
+import { GlobalIcon } from './Icons'
 
 export function Header() {
   const [lang, setLang] = useState<'ES' | 'EN'>('ES')
@@ -20,7 +21,10 @@ export function Header() {
           <a href='#skills'>Habilidades</a>
           <a href='#contact'>Contacto</a>
         </nav>
-        <button className='primary-btn' onClick={toggleLang}>
+        <button className='primary-btn lang-btn' onClick={toggleLang}>
+          <span>
+            <GlobalIcon />
+          </span>
           {lang === 'ES' ? 'EN' : 'ES'}
         </button>
       </div>

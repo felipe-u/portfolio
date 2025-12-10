@@ -1,3 +1,4 @@
+import { GoToWebsiteIcon } from '../components/Icons'
 import { projects } from '../data'
 import '../styles/Projects.css'
 
@@ -25,9 +26,15 @@ export function ProjectsPage() {
               <div className='project-links'>
                 <a href={project.repoUrl} target='_blank' rel='noreferrer'>
                   Repository
+                  <span>
+                    <GoToWebsiteIcon />
+                  </span>
                 </a>
                 <a href={project.demoUrl} target='_blank' rel='noreferrer'>
                   Project Demo
+                  <span>
+                    <GoToWebsiteIcon />
+                  </span>
                 </a>
               </div>
             </div>

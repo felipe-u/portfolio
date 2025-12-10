@@ -1,3 +1,5 @@
+import { DownloadIcon } from '../components/Icons'
+
 export function AboutPage() {
   return (
     <div className='about-container'>
@@ -22,7 +24,12 @@ export function AboutPage() {
           Busco un rol donde pueda aportar desde el primero día y seguir
           creciendo como desarrollador.
         </p>
-        <button className='primary-btn cv-btn'>Descargar CV</button>
+        <button className='primary-btn cv-btn'>
+          Descargar CV
+          <span>
+            <DownloadIcon />
+          </span>
+        </button>
       </div>
       <div className='photo-container'>
         <img src='src/assets/profile-pic.png' alt='Profile picture' />

@@ -35,8 +35,16 @@ section {
 }
 
 .cv-btn {
-  margin-top: 20px;
+  margin-top: 30px;
   padding: 5px 15px;
+  display: flex;
+  place-items: center;
+  gap: 10px;
+}
+
+.cv-btn span {
+  display: grid;
+  place-items: center;
 }
 
 .photo-container {

@@ -28,12 +28,12 @@
 
 .timeline-dot {
   background-color: white;
-  width: 10px;
-  height: 10px;
+  width: 15px;
+  height: 15px;
   border: 2px solid #333;
   transform: rotate(45deg);
   position: absolute;
-  left: 186px;
+  left: 183px;
   top: 31px;
 }
 

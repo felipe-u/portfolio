@@ -1,3 +1,9 @@
+import {
+  GithubIcon,
+  LinkedInIcon,
+  MailIcon,
+  PhoneIcon,
+} from '../components/Icons'
 import '../styles/Contact.css'
 
 export function ContactPage() {
@@ -6,17 +12,21 @@ export function ContactPage() {
       <div className='contact-info'>
         <h2>Contacto</h2>
         <div className='contact-item'>
-          <span>♠</span>
+          <span>
+            <MailIcon />
+          </span>
           <p>felipe_uv@outlook.com</p>
         </div>
 
         <div className='contact-item'>
-          <span>♠</span>
+          <span>
+            <PhoneIcon />
+          </span>
           <p>+57 312 775 1316</p>
         </div>
       </div>
       <hr />
-      <div className='contact-info'>
+      <div className='contact-info networking'>
         <h2>Redes</h2>
         <div className='icons'>
           <div className='icon'>
@@ -25,7 +35,7 @@ export function ContactPage() {
               target='_blank'
               rel='noreferrer'
             >
-              LinkedIn
+              <LinkedInIcon />
             </a>
           </div>
           <div className='icon'>
@@ -34,7 +44,7 @@ export function ContactPage() {
               target='_blank'
               rel='noreferrer'
             >
-              Github
+              <GithubIcon />
             </a>
           </div>
         </div>

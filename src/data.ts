@@ -40,7 +40,7 @@ export const projects = [
     desc: 'Aplicación de tareas con enfoque en UI/UX, paginación dinámica y conversión inteligente entre tamaños de página.',
     tags: ['React', 'Context', 'UI/UX'],
     repoUrl: 'https://github.com/felipe-u/simple-todo-app',
-    demoUrl: '',
+    demoUrl: 'https://simple-todo-delta-seven.vercel.app/',
     imgLoc: 'src/assets/projects/simple-todo.png',
   },
   {
@@ -49,7 +49,7 @@ export const projects = [
     desc: 'Gestor de inventario hecho con Redux Toolkit y middlewares personalizados para operaciones asincronas. Interfaz con Chakra UI.',
     tags: ['React', 'Redux', 'TypeScript', 'Chakra-UI'],
     repoUrl: 'https://github.com/felipe-u/inventory-redux',
-    demoUrl: '',
+    demoUrl: 'https://inventory-redux.vercel.app/',
     imgLoc: 'src/assets/projects/redux.png',
   },
 ]

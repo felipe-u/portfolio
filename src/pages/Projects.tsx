@@ -10,10 +10,7 @@ export function ProjectsPage() {
       <div className='projects'>
         {projects.map((project) => (
           <div className='project' key={project.id}>
-            <img
-              src='https://i.pinimg.com/1200x/76/75/42/767542303972a837a7fa4d2cf26bf5f5.jpg'
-              alt='Random Image'
-            />
+            <img src={project.imgLoc} alt='Random Image' />
             <div className='project-desc'>
               <h3>{project.name}</h3>
               <p>{project.desc}</p>
@@ -31,7 +28,7 @@ export function ProjectsPage() {
                   </span>
                 </a>
                 <a href={project.demoUrl} target='_blank' rel='noreferrer'>
-                  Project Demo
+                  Demo
                   <span>
                     <GoToWebsiteIcon />
                   </span>

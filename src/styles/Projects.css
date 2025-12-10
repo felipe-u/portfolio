@@ -21,6 +21,11 @@
   width: 300px;
   border: 1px solid black;
   border-radius: 10px;
+  transition: 0.3s ease;
+}
+
+.project:hover {
+  transform: scale(1.02);
 }
 
 .project img {

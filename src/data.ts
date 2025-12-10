@@ -56,16 +56,46 @@ export const projects = [
 
 export const skills = {
   tech: [
-    'React',
-    'React Router',
-    'TypeScript',
-    'Angular',
-    'Responsive Design',
-    'Java',
-    'Node.js + Express',
-    'Unit Testing',
-    'Git',
-    'MongoDB',
+    {
+      name: 'React',
+      imgLoc: 'src/assets/skills/react.svg',
+    },
+    {
+      name: 'React Router',
+      imgLoc: 'src/assets/skills/react-router.svg',
+    },
+    {
+      name: 'TypeScript',
+      imgLoc: 'src/assets/skills/typescript.svg',
+    },
+    {
+      name: 'Angular',
+      imgLoc: 'src/assets/skills/angular.svg',
+    },
+    {
+      name: 'Responsive Design',
+      imgLoc: 'src/assets/skills/responsive-design.svg',
+    },
+    {
+      name: 'Java',
+      imgLoc: 'src/assets/skills/java.svg',
+    },
+    {
+      name: 'Node.js + Express',
+      imgLoc: 'src/assets/skills/node-js.svg',
+    },
+    {
+      name: 'Unit Testing',
+      imgLoc: 'src/assets/skills/unit-testing.svg',
+    },
+    {
+      name: 'Git',
+      imgLoc: 'src/assets/skills/git.svg',
+    },
+    {
+      name: 'MongoDB',
+      imgLoc: 'src/assets/skills/mongo.svg',
+    },
   ],
   soft: [
     'Aprendizaje continuo',

@@ -27,17 +27,24 @@ export function SkillsPage() {
 
         <div className='skills-view'>
           {skillsTab === 'tech' ? (
-            <ul>
+            <div className='tech-skills'>
               {skills.tech.map((skill) => (
-                <li key={skill}>{skill}</li>
+                <div className='skill-container' key={skill.name}>
+                  <img src={skill.imgLoc} alt={skill.name} />
+                  <div className='overlay'>
+                    <p>{skill.name}</p>
+                  </div>
+                </div>
               ))}
-            </ul>
+            </div>
           ) : (
-            <ul>
-              {skills.soft.map((skill) => (
-                <li key={skill}>{skill}</li>
-              ))}
-            </ul>
+            <div className='soft-skills'>
+              <ul>
+                {skills.soft.map((skill) => (
+                  <li key={skill}>{skill}</li>
+                ))}
+              </ul>
+            </div>
           )}
         </div>
       </div>

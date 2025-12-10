@@ -1,7 +1,7 @@
 .skills-container h2 {
   text-align: center;
   padding-bottom: 50px;
-  font-size: 1.8em;
+  font-size: 2em;
 }
 
 .skills-wrap {
@@ -32,13 +32,14 @@
 }
 
 .skills-view {
-  padding: 15px;
+  padding: 25px;
   border: 1px solid black;
   border-radius: 0 0 3px 3px;
   border-top: none;
+  height: 347px;
 }
 
 .skills-view li {
-  list-style: none;
-  padding-bottom: 10px;
+  padding: 0 0 10px 10px;
+  margin-left: 15px;
 }

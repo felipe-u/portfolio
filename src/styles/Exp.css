@@ -1,7 +1,7 @@
 .exp-container h2 {
   text-align: center;
   padding-bottom: 50px;
-  font-size: 1.8em;
+  font-size: 2em;
 }
 
 .timeline-item {
@@ -19,17 +19,22 @@
   top: 0;
   width: 2px;
   height: 100%;
-  background: black;
+  background: #333;
+}
+
+.timeline-date {
+  font-weight: bold;
 }
 
 .timeline-dot {
-  background: black;
+  background-color: white;
   width: 10px;
   height: 10px;
-  border-radius: 50%;
+  border: 2px solid #333;
+  transform: rotate(45deg);
   position: absolute;
   left: 186px;
-  top: 30px;
+  top: 31px;
 }
 
 .timeline-job {
@@ -37,4 +42,18 @@
   border-radius: 10px;
   width: 400px;
   padding: 20px;
+}
+
+.timeline-job h3 {
+  padding-bottom: 10px;
+  font-size: 1.4em;
+}
+
+.timeline-job h4 {
+  padding-bottom: 15px;
+  font-size: 1.1em;
+}
+
+.timeline-job p {
+  line-height: 1.5;
 }

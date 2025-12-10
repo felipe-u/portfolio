@@ -15,7 +15,7 @@ export function ContactPage() {
           <p>+57 312 775 1316</p>
         </div>
       </div>
-
+      <hr />
       <div className='contact-info'>
         <h2>Redes</h2>
         <div className='icons'>

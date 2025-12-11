@@ -1,3 +1,4 @@
+import { useTranslation } from 'react-i18next'
 import {
   GithubIcon,
   LinkedInIcon,
@@ -7,10 +8,12 @@ import {
 import '../styles/Contact.css'
 
 export function ContactPage() {
+  const { t } = useTranslation()
+
   return (
     <div className='contact-container'>
       <div className='contact-info'>
-        <h2>Contacto</h2>
+        <h2>{t('ui.contact')}</h2>
         <div className='contact-item'>
           <span>
             <MailIcon />
@@ -27,7 +30,7 @@ export function ContactPage() {
       </div>
       <hr />
       <div className='contact-info networking'>
-        <h2>Redes</h2>
+        <h2>Links</h2>
         <div className='icons'>
           <div className='icon'>
             <a

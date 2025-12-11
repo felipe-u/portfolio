@@ -1,0 +1,20 @@
+{
+  "ui": {
+    "about": "Sobre mí",
+    "exp": "Experiencia",
+    "projects": "Proyectos",
+    "skills": "Habilidades",
+    "tech-skills": "Técnicas",
+    "soft-skills": "Blandas",
+    "contact": "Contacto",
+    "download": "Descargar CV",
+    "repo": "Repositorio"
+  },
+  "about": {
+    "greetings": "Hola, soy",
+    "dev": "Desarrollador Frontend",
+    "p1": "Ingeniero de Sistemas enfocado en el desarrollo Frontend con React. Me apasiona todo este mundo, saber cómo cada parte de una aplicación encaja en un flujo más grande y saber el cómo impactan las soluciones tecnológicas a los usuarios.",
+    "p2": "Tengo experiencia en entornos ágiles, contribuyendo en plataformas empresariales y siguiendo buenas prácticas de desarrollo. Ahora estoy enfocado en fortalecer mis habilidades con React, testing y arquitectura Frontend.",
+    "p3": "Busco un rol donde pueda aportar desde el primero día y seguir creciendo como desarrollador."
+  }
+}

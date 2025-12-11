@@ -1,0 +1,20 @@
+{
+  "ui": {
+    "about": "About me",
+    "exp": "Experience",
+    "projects": "Projects",
+    "skills": "Skills",
+    "tech-skills": "Tech",
+    "soft-skills": "Soft",
+    "contact": "Contact",
+    "download": "Download CV",
+    "repo": "Repository"
+  },
+  "about": {
+    "greetings": "Hi, I'm",
+    "dev": "Frontend Developer",
+    "p1": "Systems Engineer focused on Frontend development with React. I'm passionate about understanding how every part of an application fits into a larger flow and how technological solutions impact users.",
+    "p2": "I have experience working in agile environments, contributing to enterprise platforms and following solid development best practices. I'm currently sharpening my skills in React, testing and Frontend architecture.",
+    "p3": "I'm looking for a role where I can contribute from day one and continue growing as a developer."
+  }
+}

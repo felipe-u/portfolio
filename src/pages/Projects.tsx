@@ -1,11 +1,14 @@
+import { useTranslation } from 'react-i18next'
 import { GoToWebsiteIcon } from '../components/Icons'
 import { projects } from '../data'
 import '../styles/Projects.css'
 
 export function ProjectsPage() {
+  const { t } = useTranslation()
+
   return (
     <div className='projects-container'>
-      <h2>Proyectos</h2>
+      <h2>{t('ui.projects')}</h2>
 
       <div className='projects'>
         {projects.map((project) => (
@@ -22,7 +25,7 @@ export function ProjectsPage() {
               <hr />
               <div className='project-links'>
                 <a href={project.repoUrl} target='_blank' rel='noreferrer'>
-                  Repository
+                  {t('ui.repo')}
                   <span>
                     <GoToWebsiteIcon />
                   </span>

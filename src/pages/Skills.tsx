@@ -1,13 +1,15 @@
+import { useTranslation } from 'react-i18next'
 import { skills } from '../data'
 import '../styles/Skills.css'
 import { useState } from 'react'
 
 export function SkillsPage() {
+  const { t } = useTranslation()
   const [skillsTab, setSkillsTab] = useState<'tech' | 'soft'>('tech')
 
   return (
     <div className='skills-container'>
-      <h2>Habilidades</h2>
+      <h2>{t('ui.skills')}</h2>
 
       <div className='skills-wrap'>
         <div className='skills-selector'>
@@ -15,13 +17,13 @@ export function SkillsPage() {
             className={skillsTab === 'tech' ? 'show' : 'hide'}
             onClick={() => setSkillsTab('tech')}
           >
-            Técnicas
+            {t('ui.tech-skills')}
           </h3>
           <h3
             className={skillsTab === 'soft' ? 'show' : 'hide'}
             onClick={() => setSkillsTab('soft')}
           >
-            Blandas
+            {t('ui.soft-skills')}
           </h3>
         </div>
 

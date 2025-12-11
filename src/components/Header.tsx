@@ -1,12 +1,17 @@
 import { useState } from 'react'
 import '../styles/Header.css'
 import { GlobalIcon } from './Icons'
+import { useTranslation } from 'react-i18next'
+import i18next from 'i18next'
 
 export function Header() {
-  const [lang, setLang] = useState<'ES' | 'EN'>('ES')
+  const { t } = useTranslation()
+  const [lang, setLang] = useState<'es' | 'en'>('es')
 
   const toggleLang = () => {
-    setLang((prev) => (prev === 'ES' ? 'EN' : 'ES'))
+    const newLang = lang === 'es' ? 'en' : 'es'
+    setLang(newLang)
+    i18next.changeLanguage(newLang)
   }
 
   return (
@@ -15,17 +20,17 @@ export function Header() {
 
       <div className='nav-container'>
         <nav>
-          <a href='#about-me'>Sobre mí</a>
-          <a href='#exp'>Experiencia</a>
-          <a href='#projects'>Proyectos</a>
-          <a href='#skills'>Habilidades</a>
-          <a href='#contact'>Contacto</a>
+          <a href='#about-me'>{t('ui.about')}</a>
+          <a href='#exp'>{t('ui.exp')}</a>
+          <a href='#projects'>{t('ui.projects')}</a>
+          <a href='#skills'>{t('ui.skills')}</a>
+          <a href='#contact'>{t('ui.contact')}</a>
         </nav>
         <button className='primary-btn lang-btn' onClick={toggleLang}>
           <span>
             <GlobalIcon />
           </span>
-          {lang === 'ES' ? 'EN' : 'ES'}
+          {(lang === 'es' ? 'en' : 'es').toUpperCase()}
         </button>
       </div>
     </header>

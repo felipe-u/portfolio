@@ -16,7 +16,7 @@ export function ProjectsPage() {
             <img src={project.imgLoc} alt='Random Image' />
             <div className='project-desc'>
               <h3>{project.name}</h3>
-              <p>{project.desc}</p>
+              <p>{t(project.descKey)}</p>
               <div className='project-tags'>
                 {project.tags.map((tag) => (
                   <span key={tag}>{tag}</span>

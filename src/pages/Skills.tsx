@@ -42,8 +42,8 @@ export function SkillsPage() {
           ) : (
             <div className='soft-skills'>
               <ul>
-                {skills.soft.map((skill) => (
-                  <li key={skill}>{skill}</li>
+                {skills.softKeys.map((skill) => (
+                  <li key={skill}>{t(skill)}</li>
                 ))}
               </ul>
             </div>

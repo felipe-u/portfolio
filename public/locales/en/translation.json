@@ -16,5 +16,32 @@
     "p1": "Systems Engineer focused on Frontend development with React. I'm passionate about understanding how every part of an application fits into a larger flow and how technological solutions impact users.",
     "p2": "I have experience working in agile environments, contributing to enterprise platforms and following solid development best practices. I'm currently sharpening my skills in React, testing and Frontend architecture.",
     "p3": "I'm looking for a role where I can contribute from day one and continue growing as a developer."
+  },
+  "exp": {
+    "exp1": {
+      "occupation": "Arquitecto Desarrollador",
+      "company": "Ceiba Software (Seguros SURA / EPS SURA)",
+      "date": "Nov 2022 - Nov 2023",
+      "desc": "Advanced implementation and support for Seguros SURA platforms using Guidewire/Gosu. Full ownership of user stories, technical analysis, and deployment processes. In the last months, I contributed to a critical EPS SURA project using JSP, handling maintenance, documentation, and backend development."
+    },
+    "exp2": {
+      "occupation": "Practicante Arquitecto Desarrollador",
+      "company": "Ceiba Software (Seguros SURA)",
+      "date": "May 2022 - Oct 2022",
+      "desc": "Feature development in Guidewire/Gosu for the Seguros SURA platform. Configured insurance products, provided functional support, and actively participated in Scrum ceremonies. Implemented user stories with unit testing, functional validations, and environment deployments."
+    }
+  },
+  "projects": {
+    "proj1": "Web application to manage customer information during the motorcycle financing process.",
+    "proj2": "Minimalist habit-tracking application focused on consistency and personal growth.",
+    "proj3": "Task management application with a strong UI/UX focus, dynamic pagination, and smart page-size switching.",
+    "proj4": "Inventory manager built with Redux Toolkit and custom middleware for async operations. Interface built with Chakra UI."
+  },
+  "soft-skills": {
+    "sf1": "Continuous learning",
+    "sf2": "Self-taught",
+    "sf3": "Analytical, problem-solving mindset",
+    "sf4": "Clear and direct communication",
+    "sf5": "Technical teamwork"
   }
 }

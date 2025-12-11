@@ -1,25 +1,25 @@
 export const experience = [
   {
-    id: 1,
-    occupation: 'Arquitecto Desarrollador',
-    company: 'Ceiba Software (Seguros SURA)',
-    date: 'Nov 2022 - Nov 2023',
-    desc: 'Implementación y soporte avanzado en plataformas de Seguros SURA usando Guidewire/Gosu. Gestión completa de historias de usuario, análisis técnico y despliegues. En los últimos meses participé en un proyecto crítico de EPS SURA con tecnología JSP, aportando en mantenimiento, documentación y desarrollo backend.',
+    id: 'exp1',
+    occupationKey: 'exp.exp1.occupation',
+    companyKey: 'exp.exp1.company',
+    dateKey: 'exp.exp1.date',
+    descKey: 'exp.exp1.desc',
   },
   {
-    id: 2,
-    occupation: 'Practicante Arquitecto Desarrollador',
-    company: 'Ceiba Software (Seguros SURA / EPS SURA)',
-    date: 'May 2022 - Oct 2022',
-    desc: 'Desarrollo de funcionalidades en Guidewire/Gosu para la plataforma de Seguros SURA. Parametricé productos de seguros, di soporte funcional y participé en ceremonias Scrum. Implementé historias de usuario con pruebas unitarias, validaciones funcionales y despliegues a entornos.',
+    id: 'exp2',
+    occupationKey: 'exp.exp2.occupation',
+    companyKey: 'exp.exp2.company',
+    dateKey: 'exp.exp2.date',
+    descKey: 'exp.exp2.desc',
   },
-]
+] as const
 
 export const projects = [
   {
     id: 1,
     name: 'FinApp',
-    desc: 'Aplicación web para manejar la información de los clientes que estén en un proceso de financiación de una motocicleta.',
+    descKey: 'projects.proj1',
     tags: ['Angular', 'Node.js', 'MongoDB'],
     repoUrl: 'https://github.com/felipe-u/finapp',
     demoUrl: 'https://finapp-mocha.vercel.app',
@@ -28,7 +28,7 @@ export const projects = [
   {
     id: 2,
     name: 'Forge',
-    desc: 'Aplicación minimalista de seguimiento de hábitos centrada en la constancia y el crecimiento personal.',
+    descKey: 'projects.proj2',
     tags: ['React', 'TypeScript', 'React Router', 'IndexedDB'],
     repoUrl: 'https://github.com/felipe-u/Forge',
     demoUrl: 'https://forge-ivory.vercel.app',
@@ -37,7 +37,7 @@ export const projects = [
   {
     id: 3,
     name: 'Simple ToDo',
-    desc: 'Aplicación de tareas con enfoque en UI/UX, paginación dinámica y conversión inteligente entre tamaños de página.',
+    descKey: 'projects.proj3',
     tags: ['React', 'Context', 'UI/UX'],
     repoUrl: 'https://github.com/felipe-u/simple-todo-app',
     demoUrl: 'https://simple-todo-delta-seven.vercel.app/',
@@ -46,13 +46,13 @@ export const projects = [
   {
     id: 4,
     name: 'Inventory Redux',
-    desc: 'Gestor de inventario hecho con Redux Toolkit y middlewares personalizados para operaciones asincronas. Interfaz con Chakra UI.',
+    descKey: 'projects.proj4',
     tags: ['React', 'Redux', 'TypeScript', 'Chakra-UI'],
     repoUrl: 'https://github.com/felipe-u/inventory-redux',
     demoUrl: 'https://inventory-redux.vercel.app/',
     imgLoc: '/projects/redux.png',
   },
-]
+] as const
 
 export const skills = {
   tech: [
@@ -97,11 +97,11 @@ export const skills = {
       imgLoc: '/skills/mongo.svg',
     },
   ],
-  soft: [
-    'Aprendizaje continuo',
-    'Autodidacta',
-    'Pensamiento analítico orientado a resolver problemas',
-    'Comunicación clara y directa',
-    'Trabajo en equipo técnico',
+  softKeys: [
+    'soft-skills.sf1',
+    'soft-skills.sf2',
+    'soft-skills.sf3',
+    'soft-skills.sf4',
+    'soft-skills.sf5',
   ],
-}
+} as const

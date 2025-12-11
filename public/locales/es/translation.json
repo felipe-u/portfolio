@@ -16,5 +16,32 @@
     "p1": "Ingeniero de Sistemas enfocado en el desarrollo Frontend con React. Me apasiona todo este mundo, saber cómo cada parte de una aplicación encaja en un flujo más grande y saber el cómo impactan las soluciones tecnológicas a los usuarios.",
     "p2": "Tengo experiencia en entornos ágiles, contribuyendo en plataformas empresariales y siguiendo buenas prácticas de desarrollo. Ahora estoy enfocado en fortalecer mis habilidades con React, testing y arquitectura Frontend.",
     "p3": "Busco un rol donde pueda aportar desde el primero día y seguir creciendo como desarrollador."
+  },
+  "exp": {
+    "exp1": {
+      "occupation": "Arquitecto Desarrollador",
+      "company": "Ceiba Software (Seguros SURA / EPS SURA)",
+      "date": "Nov 2022 - Nov 2023",
+      "desc": "Implementación y soporte avanzado en plataformas de Seguros SURA usando Guidewire/Gosu. Gestión completa de historias de usuario, análisis técnico y despliegues. En los últimos meses participé en un proyecto crítico de EPS SURA con tecnología JSP, aportando en mantenimiento, documentación y desarrollo backend."
+    },
+    "exp2": {
+      "occupation": "Practicante Arquitecto Desarrollador",
+      "company": "Ceiba Software (Seguros SURA)",
+      "date": "May 2022 - Oct 2022",
+      "desc": "Desarrollo de funcionalidades en Guidewire/Gosu para la plataforma de Seguros SURA. Parametricé productos de seguros, di soporte funcional y participé en ceremonias Scrum. Implementé historias de usuario con pruebas unitarias, validaciones funcionales y despliegues a entornos."
+    }
+  },
+  "projects": {
+    "proj1": "Aplicación web para manejar la información de los clientes que estén en un proceso de financiación de una motocicleta.",
+    "proj2": "Aplicación minimalista de seguimiento de hábitos centrada en la constancia y el crecimiento personal.",
+    "proj3": "Aplicación de tareas con enfoque en UI/UX, paginación dinámica y conversión inteligente entre tamaños de página.",
+    "proj4": "Gestor de inventario hecho con Redux Toolkit y middlewares personalizados para operaciones asincronas. Interfaz con Chakra UI."
+  },
+  "soft-skills": {
+    "sf1": "Aprendizaje continuo",
+    "sf2": "Autodidacta",
+    "sf3": "Pensamiento analítico orientado a resolver problemas",
+    "sf4": "Comunicación clara y directa",
+    "sf5": "Trabajo en equipo técnico"
   }
 }

@@ -15,10 +15,12 @@ export function AboutPage() {
         <br />
         <p>{t('about.p3')}</p>
         <button className='primary-btn cv-btn'>
-          {t('ui.download')}
-          <span>
-            <DownloadIcon />
-          </span>
+          <a href='/CV.pdf' download='CV-FELIPE-U.pdf'>
+            {t('ui.download')}
+            <span>
+              <DownloadIcon />
+            </span>
+          </a>
         </button>
       </div>
       <div className='photo-container'>

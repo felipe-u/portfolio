@@ -81,7 +81,7 @@ export const skills = {
       imgLoc: '/skills/java.svg',
     },
     {
-      name: 'Node.js + Express',
+      name: 'Node.js',
       imgLoc: '/skills/node-js.svg',
     },
     {

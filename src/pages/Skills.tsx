@@ -19,6 +19,9 @@ export function SkillsPage() {
           >
             {t('ui.tech-skills')}
           </h3>
+          <div className='separator'>
+            <hr className='selector-hr' />
+          </div>
           <h3
             className={skillsTab === 'soft' ? 'show' : 'hide'}
             onClick={() => setSkillsTab('soft')}
@@ -26,6 +29,8 @@ export function SkillsPage() {
             {t('ui.soft-skills')}
           </h3>
         </div>
+
+        <hr className='skills-hr' />
 
         <div className='skills-view'>
           {skillsTab === 'tech' ? (

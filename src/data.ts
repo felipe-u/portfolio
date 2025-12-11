@@ -23,7 +23,7 @@ export const projects = [
     tags: ['Angular', 'Node.js', 'MongoDB'],
     repoUrl: 'https://github.com/felipe-u/finapp',
     demoUrl: 'https://finapp-mocha.vercel.app',
-    imgLoc: 'src/assets/projects/finapp.png',
+    imgLoc: '/projects/finapp.png',
   },
   {
     id: 2,
@@ -32,7 +32,7 @@ export const projects = [
     tags: ['React', 'TypeScript', 'React Router', 'IndexedDB'],
     repoUrl: 'https://github.com/felipe-u/Forge',
     demoUrl: 'https://forge-ivory.vercel.app',
-    imgLoc: 'src/assets/projects/forge.png',
+    imgLoc: '/projects/forge.png',
   },
   {
     id: 3,
@@ -41,7 +41,7 @@ export const projects = [
     tags: ['React', 'Context', 'UI/UX'],
     repoUrl: 'https://github.com/felipe-u/simple-todo-app',
     demoUrl: 'https://simple-todo-delta-seven.vercel.app/',
-    imgLoc: 'src/assets/projects/simple-todo.png',
+    imgLoc: '/projects/simple-todo.png',
   },
   {
     id: 4,
@@ -50,7 +50,7 @@ export const projects = [
     tags: ['React', 'Redux', 'TypeScript', 'Chakra-UI'],
     repoUrl: 'https://github.com/felipe-u/inventory-redux',
     demoUrl: 'https://inventory-redux.vercel.app/',
-    imgLoc: 'src/assets/projects/redux.png',
+    imgLoc: '/projects/redux.png',
   },
 ]
 
@@ -58,43 +58,43 @@ export const skills = {
   tech: [
     {
       name: 'React',
-      imgLoc: 'src/assets/skills/react.svg',
+      imgLoc: '/skills/react.svg',
     },
     {
       name: 'React Router',
-      imgLoc: 'src/assets/skills/react-router.svg',
+      imgLoc: '/skills/react-router.svg',
     },
     {
       name: 'TypeScript',
-      imgLoc: 'src/assets/skills/typescript.svg',
+      imgLoc: '/skills/typescript.svg',
     },
     {
       name: 'Angular',
-      imgLoc: 'src/assets/skills/angular.svg',
+      imgLoc: '/skills/angular.svg',
     },
     {
       name: 'Responsive Design',
-      imgLoc: 'src/assets/skills/responsive-design.svg',
+      imgLoc: '/skills/responsive-design.svg',
     },
     {
       name: 'Java',
-      imgLoc: 'src/assets/skills/java.svg',
+      imgLoc: '/skills/java.svg',
     },
     {
       name: 'Node.js + Express',
-      imgLoc: 'src/assets/skills/node-js.svg',
+      imgLoc: '/skills/node-js.svg',
     },
     {
       name: 'Unit Testing',
-      imgLoc: 'src/assets/skills/unit-testing.svg',
+      imgLoc: '/skills/unit-testing.svg',
     },
     {
       name: 'Git',
-      imgLoc: 'src/assets/skills/git.svg',
+      imgLoc: '/skills/git.svg',
     },
     {
       name: 'MongoDB',
-      imgLoc: 'src/assets/skills/mongo.svg',
+      imgLoc: '/skills/mongo.svg',
     },
   ],
   soft: [

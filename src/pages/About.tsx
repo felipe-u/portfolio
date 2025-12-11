@@ -32,7 +32,7 @@ export function AboutPage() {
         </button>
       </div>
       <div className='photo-container'>
-        <img src='src/assets/profile-pic.png' alt='Profile picture' />
+        <img src='/profile-pic.png' alt='Profile picture' />
       </div>
     </div>
   )

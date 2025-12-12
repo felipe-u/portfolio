@@ -8,7 +8,7 @@ import '../styles/Main.css'
 export function Main() {
   return (
     <main>
-      <section id='about-me' className='center-layout'>
+      <section id='about' className='center-layout'>
         <AboutPage />
       </section>
       <div className='diamond-hr' />

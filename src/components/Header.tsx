@@ -35,11 +35,13 @@ export function Header() {
 
   return (
     <header>
-      <h1>Felipe U</h1>
+      <h1>
+        <a href='#about'>Felipe U</a>
+      </h1>
 
       <div className='nav-container' ref={navRef}>
         <nav className={openMenu ? 'open' : ''}>
-          <a href='#about-me' onClick={closeMenu}>
+          <a href='#about' onClick={closeMenu}>
             {t('ui.about')}
           </a>
           <a href='#exp' onClick={closeMenu}>

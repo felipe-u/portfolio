@@ -74,7 +74,8 @@
   position: relative;
   width: 75px;
   cursor: default;
-  margin: 20px;
+  margin: 5px 20px;
+  padding-bottom: 30px;
 }
 
 .skill-container img {
@@ -90,23 +91,21 @@
   bottom: 0;
   left: 0;
   width: 100%;
-  height: max-content;
   opacity: 0;
   transition: 0.3s ease;
-  display: grid;
-  place-content: center;
-  transform: translateY(110%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2px;
 }
 
 .overlay p {
   text-align: center;
   font-size: 0.9em;
-  padding-top: 5px;
 }
 
 .skill-container:hover .overlay {
   opacity: 1;
-  transform: translateY(100%);
 }
 
 .skill-container:hover img {

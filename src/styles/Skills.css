@@ -1,3 +1,7 @@
+.skills-container {
+  width: 80%;
+}
+
 .skills-container h2 {
   text-align: center;
   padding-bottom: 50px;
@@ -5,9 +9,8 @@
 }
 
 .skills-wrap {
-  width: 80%;
-  max-width: 700px;
-  min-width: 560px;
+  width: 100%;
+  max-width: 560px;
   margin: 0 auto;
   border-radius: 10px;
   border: 1px solid rgba(255, 255, 255, 0.05);
@@ -113,7 +116,6 @@
 }
 
 .soft-skills li {
-  /* list-style: none; */
   padding: 0 20px 40px 10px;
   margin-left: 80px;
   font-size: 1.1em;

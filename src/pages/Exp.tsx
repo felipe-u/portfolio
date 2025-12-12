@@ -16,6 +16,8 @@ export function ExpPage() {
             <div className='timeline-job'>
               <h3>{t(exp.occupationKey)}</h3>
               <h4>{t(exp.companyKey)}</h4>
+              <h5>{t(exp.dateKey)}</h5>
+              <hr className='job-hr' />
               <p>{t(exp.descKey)}</p>
             </div>
           </div>

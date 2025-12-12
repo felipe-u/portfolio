@@ -10,6 +10,7 @@
   --color-800: #2e3c59;
   --color-900: #18202f;
   --color-950: #090b11;
+  color-scheme: dark;
 }
 
 * {

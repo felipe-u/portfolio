@@ -28,7 +28,7 @@ export function Main() {
       </section>
       <div className='diamond-hr' />
 
-      <section id='contact'>
+      <section id='contact' className='contact-sec'>
         <ContactPage />
       </section>
     </main>

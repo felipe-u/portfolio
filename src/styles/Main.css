@@ -37,14 +37,25 @@ section {
 .cv-btn {
   margin-top: 30px;
   padding: 5px 15px;
+  background-color: var(--color-800);
+}
+
+.cv-btn a {
+  text-decoration: none;
   display: flex;
   place-items: center;
   gap: 10px;
+  color: var(--color-100);
+  font-weight: 600;
 }
 
 .cv-btn span {
   display: grid;
   place-items: center;
+}
+
+.cv-btn:hover {
+  background-color: var(--color-700);
 }
 
 .photo-container {
@@ -54,12 +65,12 @@ section {
 .photo-container img {
   width: 225px;
   object-fit: cover;
-  border: 1px solid black;
-  border-radius: 10px;
+  background-image: radial-gradient(circle, var(--color-900), var(--color-950));
+  border-radius: 10%;
 }
 
 .diamond-hr {
-  border-top: 1px solid black;
+  border-top: 1px solid rgba(255, 255, 255, 0.39);
   width: 90%;
   margin: 0 auto;
   position: relative;
@@ -67,12 +78,12 @@ section {
 
 .diamond-hr::after {
   content: '';
-  border: 1px solid black;
+  border: 1px solid rgba(255, 255, 255, 0.39);
   width: 15px;
   height: 15px;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%) rotate(45deg);
-  background-color: white;
+  background-color: #0d1019;
 }

@@ -22,7 +22,7 @@ export function ProjectsPage() {
                   <span key={tag}>{tag}</span>
                 ))}
               </div>
-              <hr />
+              <hr className='project-hr' />
               <div className='project-links'>
                 <a href={project.repoUrl} target='_blank' rel='noreferrer'>
                   {t('ui.repo')}

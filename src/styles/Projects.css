@@ -19,9 +19,11 @@
 
 .project {
   width: 300px;
-  border: 1px solid black;
+  border: 1px solid rgba(255, 255, 255, 0.05);
   border-radius: 10px;
   transition: 0.3s ease;
+  background-color: rgba(255, 255, 255, 0.03);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
 }
 
 .project:hover {
@@ -33,6 +35,7 @@
   height: 150px;
   object-fit: cover;
   border-radius: 10px 10px 0 0;
+  filter: brightness(0.95) saturate(0.9);
 }
 
 .project-desc {
@@ -46,26 +49,34 @@
 .project-desc h3 {
   font-size: 1.4em;
   padding: 10px 0;
+  color: var(--color-50);
+  font-weight: 600;
 }
 
 .project-desc p {
   line-height: 1.4;
+  color: var(--color-200);
 }
 
 .project-tags {
   display: flex;
   flex-wrap: wrap;
-  gap: 3px;
+  gap: 5px;
   padding: 10px 5px;
   height: 72px;
 }
 
 .project-tags span {
-  border: 1px solid blue;
-  font-size: 0.9em;
+  background-color: var(--color-800);
+  color: var(--color-100);
+  font-size: 0.8em;
   border-radius: 15px;
-  padding: 3px 5px;
+  padding: 5px 7px;
   height: max-content;
+}
+
+.project-hr {
+  color: rgba(255, 255, 255, 0.08);
 }
 
 .project-links {
@@ -78,18 +89,29 @@
 
 .project-links a {
   text-decoration: none;
-  color: black;
+  color: var(--color-200);
   transition: 0.3s ease;
-  background-color: lightgray;
   border-radius: 5px;
   display: flex;
   place-items: center;
-  gap: 5px;
+  gap: 7px;
   padding: 5px;
+  font-size: 0.9em;
 }
 
 .project-links a:hover {
-  background-color: grey;
+  color: var(--color-50);
+}
+
+.project-links a svg {
+  transition: 0.3s ease;
+  transform: translateX(0);
+  transition: fill 0.2s ease, transform 0.2s ease;
+}
+
+.project-links a:hover svg {
+  stroke: var(--color-50);
+  transform: translateX(2px);
 }
 
 .project-links span {

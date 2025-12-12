@@ -43,3 +43,13 @@
   place-content: center;
   gap: 15px;
 }
+
+.icon a svg {
+  transition: 0.3s ease;
+  opacity: 0.85;
+}
+
+.icon a:hover svg {
+  opacity: 1;
+  filter: drop-shadow(0 0 4px rgba(255, 255, 255, 0.15));
+}

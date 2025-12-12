@@ -73,10 +73,6 @@ export const skills = {
       imgLoc: '/skills/angular.svg',
     },
     {
-      name: 'Responsive Design',
-      imgLoc: '/skills/responsive-design.svg',
-    },
-    {
       name: 'Java',
       imgLoc: '/skills/java.svg',
     },
@@ -85,16 +81,20 @@ export const skills = {
       imgLoc: '/skills/node-js.svg',
     },
     {
-      name: 'Unit Testing',
-      imgLoc: '/skills/unit-testing.svg',
-    },
-    {
       name: 'Git',
       imgLoc: '/skills/git.svg',
     },
     {
       name: 'MongoDB',
       imgLoc: '/skills/mongo.svg',
+    },
+    {
+      name: 'Responsive Design',
+      imgLoc: '/skills/responsive-design.svg',
+    },
+    {
+      name: 'Unit Testing',
+      imgLoc: '/skills/unit-testing.svg',
     },
   ],
   softKeys: [

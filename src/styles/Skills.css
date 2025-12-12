@@ -10,7 +10,9 @@
   min-width: 560px;
   margin: 0 auto;
   border-radius: 10px;
-  border: 1px solid black;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  background-color: rgba(255, 255, 255, 0.03);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
 }
 
 .skills-selector {
@@ -26,21 +28,15 @@
   font-size: 1.4em;
   margin: 15px;
   transition: 0.3s ease;
-}
-
-.skills-selector h3:nth-of-type(1) {
-  border-radius: 10px 0 0 0;
-}
-.skills-selector h3:nth-of-type(2) {
-  border-radius: 0 10px 0 0;
+  border-radius: 10px;
 }
 
 .skills-selector h3:hover {
-  background-color: lightgray;
+  background-color: var(--color-800);
 }
 
 .skills-selector h3.show {
-  background-color: lightgray;
+  background-color: var(--color-800);
 }
 
 .separator {
@@ -50,15 +46,17 @@
 
 .selector-hr {
   height: 70%;
+  color: rgba(255, 255, 255, 0.08);
 }
 
 .skills-view {
-  padding: 0 0 25px;
+  padding: 0 0 40px;
 }
 
 .skills-hr {
-  width: 90%;
+  width: 94%;
   margin: 0 auto 50px;
+  color: rgba(255, 255, 255, 0.08);
 }
 
 .tech-skills {
@@ -92,14 +90,14 @@
   height: max-content;
   opacity: 0;
   transition: 0.3s ease;
-  background-color: rgba(255, 255, 255, 0.262);
   display: grid;
   place-content: center;
 }
 
 .overlay p {
   text-align: center;
-  font-size: 1em;
+  font-size: 0.9em;
+  padding-top: 5px;
 }
 
 .skill-container:hover .overlay {
@@ -115,8 +113,9 @@
 }
 
 .soft-skills li {
-  list-style: none;
-  padding: 0 0 40px 10px;
-  margin-left: 50px;
+  /* list-style: none; */
+  padding: 0 20px 40px 10px;
+  margin-left: 80px;
   font-size: 1.1em;
+  font-weight: 600;
 }

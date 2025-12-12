@@ -15,45 +15,50 @@
 .timeline-item::before {
   content: '';
   position: absolute;
-  left: 190px;
+  left: 191px;
   top: 0;
   width: 2px;
   height: 100%;
-  background: #333;
+  background: rgba(255, 255, 255, 0.1);
 }
 
 .timeline-date {
   font-weight: bold;
+  color: var(--color-100);
 }
 
 .timeline-dot {
-  background-color: white;
+  background-color: #0d1019;
   width: 15px;
   height: 15px;
-  border: 2px solid #333;
+  border: 2px solid rgba(255, 255, 255, 0.1);
   transform: rotate(45deg);
   position: absolute;
-  left: 183px;
+  left: 184.49px;
   top: 31px;
 }
 
 .timeline-job {
-  border: 1px solid black;
+  border: 1px solid rgba(255, 255, 255, 0.05);
   border-radius: 10px;
   width: 400px;
   padding: 20px;
+  background-color: rgba(46, 60, 89, 0.25);
 }
 
 .timeline-job h3 {
   padding-bottom: 10px;
   font-size: 1.4em;
+  color: var(--color-50);
 }
 
 .timeline-job h4 {
   padding-bottom: 15px;
   font-size: 1.1em;
+  color: var(--color-200);
 }
 
 .timeline-job p {
   line-height: 1.5;
+  color: var(--color-300);
 }

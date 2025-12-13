@@ -19,13 +19,13 @@
   },
   "exp": {
     "exp1": {
-      "occupation": "Arquitecto Desarrollador",
+      "occupation": "Developer Architect",
       "company": "Ceiba Software (Seguros SURA / EPS SURA)",
       "date": "Nov 2022 - Nov 2023",
       "desc": "Advanced implementation and support for Seguros SURA platforms using Guidewire/Gosu. Full ownership of user stories, technical analysis, and deployment processes. In the last months, I contributed to a critical EPS SURA project using JSP, handling maintenance, documentation, and backend development."
     },
     "exp2": {
-      "occupation": "Practicante Arquitecto Desarrollador",
+      "occupation": "Developer Architect Intern",
       "company": "Ceiba Software (Seguros SURA)",
       "date": "May 2022 - Oct 2022",
       "desc": "Feature development in Guidewire/Gosu for the Seguros SURA platform. Configured insurance products, provided functional support, and actively participated in Scrum ceremonies. Implemented user stories with unit testing, functional validations, and environment deployments."
